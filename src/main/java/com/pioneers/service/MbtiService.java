@@ -2,10 +2,16 @@ package com.pioneers.service;
 
 import com.pioneers.dto.MbtiDto;
 import com.pioneers.entity.MbtiResult;
+import com.pioneers.repository.MbtiRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+@RequiredArgsConstructor
 @Service
 public class MbtiService {
+
+    private final MbtiRepository mbtiRepository;
+
     public String calcResult(MbtiDto mbtiDto){
         if(mbtiDto.getE() > mbtiDto.getI()) {
             mbtiDto.setT1("E");

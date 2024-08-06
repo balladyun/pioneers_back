@@ -1,7 +1,7 @@
 package com.pioneers.entity;
 
+
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
 
 @Entity
 @Table(name = "mbti")
