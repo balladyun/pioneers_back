@@ -13,6 +13,8 @@ public class MbtiResult {
     @Column
     private String result;
 
+    public MbtiResult() { }
+
     public MbtiResult(Long id, String result){
         this.id = id;
         this.result = result;
