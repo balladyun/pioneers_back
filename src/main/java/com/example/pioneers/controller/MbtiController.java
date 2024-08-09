@@ -17,7 +17,7 @@ public class MbtiController {
     private final MbtiService mbtiService;
 
     @PostMapping(value = "/result")
-    public String mbti_calc(@RequestBody MbtiDto mbtiDto, @RequestBody MbtiResponse mbtiResponse){
+    public String mbti_calc(@RequestBody MbtiDto mbtiDto, MbtiResponse mbtiResponse){
         String result = mbtiService.calcResult(mbtiDto, mbtiResponse);
 
         return result;
