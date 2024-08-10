@@ -1,47 +1,75 @@
 package com.pioneers.service;
 
-import com.pioneers.dto.MbtiDto;
-import com.pioneers.entity.MbtiResult;
-import com.pioneers.repository.MbtiRepository;
+import com.pioneers.domain.mbti.MbtiType;
+import com.pioneers.web.mbti.dto.request.MbtiResponse;
+import com.pioneers.web.mbti.dto.response.MbtiResult;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 @RequiredArgsConstructor
 @Service
 public class MbtiService {
 
-    private final MbtiRepository mbtiRepository;
+    public String evaluateMbti(MbtiResponse mbtiDto) {
 
-    public String calcResult(MbtiDto mbtiDto){
-        if(mbtiDto.getE() > mbtiDto.getI()) {
-            mbtiDto.setT1("E");
-        } else{
-            mbtiDto.setT1("I");
-        }
-        if(mbtiDto.getN() > mbtiDto.getS()) {
-            mbtiDto.setT2("N");
-        } else{
-            mbtiDto.setT2("S");
-        }
-        if(mbtiDto.getT() > mbtiDto.getF()) {
-            mbtiDto.setT3("T");
-        } else{
-            mbtiDto.setT3("F");
-        }
-        if(mbtiDto.getP() > mbtiDto.getJ()) {
-            mbtiDto.setT4("P");
-        } else{
-            mbtiDto.setT4("J");
+        int E, I, N, S, F, T, P, J;
+
+        List<String> arr = new ArrayList<>();
+        arr.add(mbtiDto.getQ1());
+        arr.add(mbtiDto.getQ2());
+        arr.add(mbtiDto.getQ3());
+        arr.add(mbtiDto.getQ4());
+        arr.add(mbtiDto.getQ5());
+        arr.add(mbtiDto.getQ6());
+        arr.add(mbtiDto.getQ7());
+        arr.add(mbtiDto.getQ8());
+        arr.add(mbtiDto.getQ9());
+        arr.add(mbtiDto.getQ10());
+        arr.add(mbtiDto.getQ11());
+        arr.add(mbtiDto.getQ12());
+
+        E = Collections.frequency(arr, "E");
+        I = Collections.frequency(arr, "I");
+        S = Collections.frequency(arr, "S");
+        N = Collections.frequency(arr, "N");
+        F = Collections.frequency(arr, "F");
+        T = Collections.frequency(arr, "T");
+        P = Collections.frequency(arr, "P");
+        J = Collections.frequency(arr, "J");
+
+        String result = "";
+
+        if (E > I) {
+            result += "E";
+        } else {
+            result += "I";
         }
 
-        String result = mbtiDto.getT1() + mbtiDto.getT2() + mbtiDto.getT3() + mbtiDto.getT4();
-        mbtiDto.setResult(result);
+        if (N > S) {
+            result += "N";
+        } else {
+            result += "S";
+        }
 
+        if (T > F) {
+            result += "T";
+        } else {
+            result += "F";
+        }
+
+        if (P > J) {
+            result += "P";
+        } else {
+            result += "J";
+        }
         return result;
     }
 
-    public void save(MbtiResult mbtiResult){
-        MbtiResult saved = mbtiRepository.save(mbtiResult);
+    public MbtiResult findMbtiInfo(String result) {
+        return MbtiType.findMbtiInfo(result);
     }
-
 }
