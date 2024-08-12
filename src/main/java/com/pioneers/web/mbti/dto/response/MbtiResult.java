@@ -18,6 +18,7 @@ public class MbtiResult {
     private String advantages;
     private String disadvantages;
     private String teamwork;
+    private String teamworkUrl;
     private String similarTypeEntrepreneurs;
     private String entrepreneurDescription;
 
@@ -30,6 +31,7 @@ public class MbtiResult {
         mbtiResult.setAdvantages(mbtiType.getAdvantages());
         mbtiResult.setDisadvantages(mbtiType.getDisadvantages());
         mbtiResult.setTeamwork(mbtiType.getTeamwork());
+        mbtiResult.setTeamworkUrl(mbtiType.getTeamworkUrl());
         mbtiResult.setSimilarTypeEntrepreneurs(mbtiType.getSimilarTypeEntrepreneurs());
         mbtiResult.setEntrepreneurDescription(mbtiType.getEntrepreneurDescription());
 
