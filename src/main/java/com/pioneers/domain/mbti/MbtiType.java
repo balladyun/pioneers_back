@@ -9,7 +9,7 @@ public enum MbtiType {
     INTJ(
             "INTJ",
             "미래의 설계자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INTJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INTJ.png",
             "미래의 설계자는 창의적이고 전략적인 사고로 팀을 이끄는 역할을 합니다. " +
                     "이들은 새로운 아이디어를 혼자서 깊이 고민하고, 철저한 분석과 연구를 통해 장기적인 계획을 세웁니다. " +
                     "복잡한 문제를 해결하는 데 뛰어난 능력을 발휘하며, 팀이 목표를 향해 나아가는 데 필요한 전반적인 방향을 제시합니다. " +
@@ -19,6 +19,7 @@ public enum MbtiType {
                     "또한, 새로운 아이디어나 접근법을 시도하는 데 있어 유연성이 부족할 수 있습니다.",
             "'협력적인 혁신가' - 이들은 다양한 아이디어를 탐색하고, 팀원들과의 협업을 통해 혁신적인 해결책을 찾습니다. " +
                     "또한, 변화와 도전에 적극적으로 대응하며, 팀의 동기 부여와 협력을 통해 목표를 달성합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESFP.png",
             "일론 머스크 (Elon Musk) - Tesla, SpaceX",
             " Elon Musk는 창의적이고 전략적인 사고로 미래 지향적인 프로젝트를 추진합니다. " +
                     "혁신적이고 복잡한 문제를 해결하는 능력으로 Tesla와 SpaceX를 성공적으로 이끌었습니다."
@@ -26,7 +27,7 @@ public enum MbtiType {
     ENTJ(
             "ENTJ",
             "동료와 협력하는 혁신가",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENTJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENTJ.png",
             "동료와 협력하는 혁신가는 팀원들과의 활발한 브레인스토밍과 협업을 통해 아이디어를 발전시키는 데 탁월합니다. " +
                     "이들은 팀의 목표를 설정하고, 문제를 해결하기 위한 전략을 적극적으로 제시하며, 강력한 리더십을 발휘합니다. " +
                     "팀원들의 다양한 의견을 수렴하고, 이를 바탕으로 혁신적인 해결책을 찾아가는 과정에서 높은 에너지를 발휘합니다. " +
@@ -36,6 +37,7 @@ public enum MbtiType {
                     "또한, 의견이 충돌할 때 갈등이 발생할 수 있습니다.",
             "'체계적인 조정자' - 이들은 고객의 니즈를 이해하고, 팀원들과의 협력을 통해 실질적인 문제를 해결하는 데 강점을 가지고 있습니다. " +
                     "또한, 직관적인 접근을 통해 문제를 분석하고, 실용적인 해결책을 제공하는 데 능숙합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISFP.png",
             "슈릴 샌드버그 (Sheryl Sandberg) - Facebook (현재 Meta)",
             "Sheryl Sandberg는 강력한 리더십과 협업 능력으로 Facebook의 COO로서 조직의 성장을 이끌었습니다. " +
                     "목표 설정과 문제 해결에서 탁월한 능력을 발휘합니다."
@@ -44,7 +46,7 @@ public enum MbtiType {
     ISTJ(
             "ISTJ",
             "신중한 문제 해결자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISTJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISTJ.png",
             "신중한 문제 해결자는 창업 과정에서 체계적이고 현실적인 접근 방식을 선호합니다. " +
                     "이들은 철저한 준비와 계획을 통해 문제를 해결하며, 안정적이고 신뢰할 수 있는 운영을 중요시합니다. " +
                     "스타트업의 초기 단계에서 정밀한 분석과 실용적인 해결책을 제시함으로써, 팀이 신뢰할 수 있는 기반을 구축할 수 있도록 돕습니다. " +
@@ -54,13 +56,14 @@ public enum MbtiType {
                     "또한, 변동성이 큰 환경에서 유연성이 부족할 수 있습니다.",
             "'개방적인 문제 해결자' - 이들은 다양한 아이디어를 탐색하고, 팀원들과의 협업을 통해 혁신적인 해결책을 찾아갑니다. " +
                     "또한, 변화와 도전에 적극적으로 대응하며, 팀의 동기 부여와 협력을 통해 목표를 달성합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENFP.png",
             "제프 베조스 (Jeff Bezos) - Amazon",
             "Jeff Bezos는 체계적이고 현실적인 접근 방식을 통해 Amazon을 세계 최대의 전자상거래 회사로 성장시켰습니다. 철저한 준비와 분석을 통해 안정적이고 신뢰할 수 있는 운영을 중요시합니다."
     ),
     ESTJ(
             "ESTJ",
             "팀워크 중시하는 계획자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESTJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESTJ.png",
             "팀워크 중시하는 계획자는 조직력과 체계적인 접근을 통해 스타트업을 효율적으로 운영합니다. " +
                     "이들은 명확한 역할 분담과 세부 계획을 통해 팀이 목표를 향해 나아가도록 돕습니다. " +
                     "팀원들과의 소통을 중요시하며, 팀의 업무가 계획에 맞춰 원활하게 진행되도록 관리합니다. " +
@@ -70,6 +73,7 @@ public enum MbtiType {
                     "또한, 유연성이 부족할 수 있습니다.",
             "'창의적 추진자' - 이들은 새로운 아이디어와 가능성을 탐색하며, 고객의 니즈와 시장의 요구를 깊이 이해하려고 노력합니다. " +
                     "또한, 팀원들과의 협력을 통해 창의적인 해결책을 도출합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INFP.png",
             "사티아 나델라 (Satya Nadella) - Microsoft",
             "Satya Nadella는 명확한 역할 분담과 체계적인 계획 수립을 통해 Microsoft의 CEO로서 회사를 이끌고 있습니다. " +
                     "팀의 효율성을 높이고 조직력을 중시합니다."
@@ -78,7 +82,7 @@ public enum MbtiType {
             (
                     "INTP",
                     "창의적인 문제 해결사",
-                    "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INTP.jpg",
+                    "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INTP.png",
                     "창의적인 문제 해결사는 혁신적이고 독창적인 사고를 통해 창업의 도전을 극복합니다. " +
                             "이들은 새로운 아이디어를 탐색하고, 창의적인 해결책을 제시하는 데 탁월합니다. " +
                             "복잡한 문제를 다양한 관점에서 접근하며, 독립적인 작업을 선호합니다. " +
@@ -87,6 +91,7 @@ public enum MbtiType {
                     "세부적인 업무나 실용적인 계획에 대한 관심이 부족할 수 있으며, 팀원들과의 협력이 부족할 수 있습니다.",
                     "'실용적인 조정자' - 이들은 문제를 신속하게 분석하고, 실용적인 해결책을 제공하며, 팀원들과의 원활한 소통을 통해 효율적인 팀워크를 구축합니다. " +
                             "또한, 장기적인 계획보다는 현재의 문제를 해결하는 데 강점을 가지고 있습니다.",
+                    "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESFJ.png",
                     " 래리 페이지 (Larry Page) - Google",
                     "Larry Page는 창의적이고 독창적인 사고로 Google을 창립하고 발전시켰습니다. " +
                             "복잡한 문제를 다양한 관점에서 접근하며, 제품 개발과 연구에서 뛰어난 능력을 발휘합니다."
@@ -95,7 +100,7 @@ public enum MbtiType {
     ENTP(
             "ENTP",
             "직관적인 리더",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENTP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENTP.png",
             "직관적인 리더는 창의적이고 유연한 사고로 스타트업의 발전을 주도합니다. " +
                     "이들은 새로운 아이디어와 기회를 끊임없이 탐색하며, 팀원들과의 활발한 논의를 통해 혁신적인 방향을 제시합니다. " +
                     "또한, 문제 해결 과정에서 실험적인 접근을 시도하고, 빠르게 변하는 시장 환경에 적응하는 능력이 뛰어납니다.",
@@ -103,6 +108,7 @@ public enum MbtiType {
             "때때로 지나치게 많은 아이디어를 제시하여 팀이 혼란스러울 수 있으며, 세부적인 계획이나 실행이 부족할 수 있습니다.",
             "'현실적인 실용가' - 이들은 팀원들의 안정성과 팀워크를 중요시하며, 세부적인 업무를 꼼꼼히 챙깁니다. " +
                     "고객의 요구를 이해하고, 실용적인 해결책을 제공하는 데 강점을 가지며, 창업 초기의 실질적인 문제를 해결하는 데 유리합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISFJ.png",
             "리드 호프만 (Reid Hoffman) - LinkedIn",
             "Reid Hoffman은 창의적이고 유연한 사고로 LinkedIn을 창립했습니다. 새로운 아이디어와 기회를 끊임없이 탐색하며, 혁신적인 방향을 제시합니다."
 
@@ -110,7 +116,7 @@ public enum MbtiType {
     ISFJ(
             "ISFJ",
             "현실적인 실용가",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISFJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISFJ.png",
             "현실적인 실용가는 실용적이고 신뢰성 있는 접근 방식을 통해 창업을 성공적으로 이끕니다. " +
                     "이들은 팀원들의 안정성과 팀워크를 중요시하며, 세부적인 업무를 꼼꼼히 챙깁니다. " +
                     "고객의 요구를 이해하고, 실용적인 해결책을 제공하는 데 강점을 가지며, 창업 초기의 실질적인 문제를 해결하는 데 유리합니다.",
@@ -118,6 +124,7 @@ public enum MbtiType {
             "새로운 아이디어나 변화를 수용하는 데 시간이 걸릴 수 있으며, 창의적인 접근이 부족할 수 있습니다.",
             "'직관적인 리더' -이들은 새로운 아이디어와 기회를 끊임없이 탐색하며, 팀원들과의 활발한 논의를 통해 혁신적인 방향을 제시합니다. " +
                     "또한, 문제 해결 과정에서 실험적인 접근을 시도하고, 빠르게 변하는 시장 환경에 적응하는 능력이 뛰어납니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENTP.png",
             "멜린다 게이츠 (Melinda Gates) - Bill & Melinda Gates Foundation",
             "Melinda Gates는 실용적이고 신뢰성 있는 접근 방식을 통해 비영리 단체를 성공적으로 운영하고 있습니다. " +
                     "팀원들의 안정성과 협력을 중요시합니다."
@@ -125,7 +132,7 @@ public enum MbtiType {
     ENFJ(
             "ENFJ",
             "공감하는 조정자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENFJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENFJ.png",
             "공감하는 조정자는 팀원들과의 강력한 유대감과 협력으로 창업 팀을 이끕니다. " +
                     "이들은 사람 중심의 접근을 통해 팀원들의 강점을 최대한 활용하며, 팀의 목표를 달성하기 위해 끊임없이 노력합니다. " +
                     "또한, 팀원들의 의견을 존중하고, 서로 간의 원활한 소통을 통해 창의적인 해결책을 도출합니다.",
@@ -133,6 +140,7 @@ public enum MbtiType {
             "팀원들의 의견을 지나치게 고려하다 보면 결정이 지연될 수 있으며, 개인의 의견을 중시하다 보면 전체적인 방향성이 모호해질 수 있습니다.",
             "'분석적인 계획가' - 이들은 현장에서의 실질적인 문제를 신속하게 분석하고, 직접적인 접근 방식을 통해 해결책을 찾습니다. " +
                     "또한, 새로운 도전을 두려워하지 않으며, 유연한 사고로 예상치 못한 상황에 적응합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISTP.png",
             "오프라 윈프리 (Oprah Winfrey) - Harpo Productions"
             , "Oprah Winfrey는 사람 중심의 접근을 통해 팀을 이끌고 강력한 유대감을 형성합니다. " +
             "뛰어난 소통 능력과 협력적인 팀워크로 성공을 이루어냈습니다."
@@ -141,7 +149,7 @@ public enum MbtiType {
     ISTP(
             "ISTP",
             "분석적인 계획가",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISTP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISTP.png",
             "분석적인 계획가는 실용적이고 효율적인 방법으로 문제를 해결합니다. " +
                     "이들은 현장에서의 실질적인 문제를 신속하게 분석하고, 직접적인 접근 방식을 통해 해결책을 찾습니다. " +
                     "또한, 새로운 도전을 두려워하지 않으며, 유연한 사고로 예상치 못한 상황에 적응합니다.",
@@ -149,6 +157,7 @@ public enum MbtiType {
             "장기적인 계획보다는 즉각적인 해결을 중시할 수 있으며, 팀원들과의 소통이 부족할 수 있습니다.",
             "'공감하는 조정자' - 이들은 사람 중심의 접근을 통해 팀원들의 강점을 최대한 활용하며, 팀의 목표를 달성하기 위해 끊임없이 노력합니다. " +
                     "또한, 팀원들의 의견을 존중하고, 서로 간의 원활한 소통을 통해 창의적인 해결책을 도출합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENFJ.png",
             "잭 도시 (Jack Dorsey) - Twitter, Square",
             "Jack Dorsey는 실용적이고 효율적인 방법으로 문제를 해결합니다. " +
                     "현장에서의 문제를 신속하게 분석하고 직접적인 접근 방식을 통해 해결책을 찾습니다."
@@ -156,7 +165,7 @@ public enum MbtiType {
     ESTP(
             "ESTP",
             "창의적인 실행가",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESTP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESTP.png",
             "창의적인 실행가는 빠르게 변하는 시장에서 혁신적 아이디어를 실현하는 데 뛰어난 능력을 가지고 있습니다. " +
                     "이들은 현장에서 직접 문제를 해결하고, 즉각적인 피드백을 통해 빠르게 적응합니다. " +
                     "또한, 실용적인 해결책을 제시하며, 팀원들과의 협업을 통해 성과를 극대화합니다.",
@@ -164,6 +173,7 @@ public enum MbtiType {
             "장기적인 계획이나 전략을 세우는 데 있어 부족할 수 있으며, 팀원들과의 협력보다 개인적인 성과를 중시할 수 있습니다.",
             "'유연한 분석가' - 이들은 체계적인 계획과 실용적인 접근을 통해 창업의 성공을 이끌며, 팀원들과의 협력을 통해 성과를 극대화합니다. " +
                     "또한, 실질적인 데이터를 기반으로 한 문제 해결을 중시합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INFJ.png",
             "리처드 브랜슨 (Richard Branson) - Virgin Group",
             "Richard Branson은 빠르게 변하는 시장에서 혁신적 아이디어를 실현하는 데 뛰어난 능력을 가지고 있습니다. " +
                     "신속한 실행과 직접적인 접근으로 다양한 사업을 성공시켰습니다."
@@ -172,7 +182,7 @@ public enum MbtiType {
     ISFP(
             "ISFP",
             "체계적인 조정자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISFP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISFP.png",
             "체계적인 조정자는 스타트업에서 안정성과 조화를 중시합니다. " +
                     "이들은 고객의 니즈를 이해하고, 팀원들과의 협력을 통해 실질적인 문제를 해결하는 데 강점을 가지고 있습니다. " +
                     "또한, 직관적인 접근을 통해 문제를 분석하고, 실용적인 해결책을 제공하는 데 능숙합니다.",
@@ -180,6 +190,7 @@ public enum MbtiType {
             "창의적인 아이디어나 장기적인 비전에 대한 관심이 부족할 수 있으며, 변화에 대한 적응력이 떨어질 수 있습니다.",
             "'동료와 협력하는 혁신가' - 이들은 팀의 목표를 설정하고, 문제를 해결하기 위한 전략을 적극적으로 제시하며, 강력한 리더십을 발휘합니다. " +
                     "이 타입의 창업가는 특히 빠르게 변화하는 시장에서 팀을 효과적으로 이끌어갈 수 있습니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENTJ.png",
             "브라이언 체스키 (Brian Chesky) - Airbnb",
             "Brian Chesky는 고객의 니즈를 이해하고, 팀원들과의 협력을 통해 실질적인 문제를 해결합니다. " +
                     "체계적이고 현실적인 접근을 통해 Airbnb를 성공적으로 이끌었습니다."
@@ -187,7 +198,7 @@ public enum MbtiType {
     ENFP(
             "ENFP",
             "개방적인 문제 해결자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENFP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ENFP.png",
             "개방적인 문제 해결자는 창의적이고 열린 사고로 스타트업을 이끕니다. " +
                     "이들은 다양한 아이디어를 탐색하고, 팀원들과의 협업을 통해 혁신적인 해결책을 찾아갑니다. " +
                     "또한, 변화와 도전에 적극적으로 대응하며, 팀의 동기 부여와 협력을 통해 목표를 달성합니다.",
@@ -196,6 +207,7 @@ public enum MbtiType {
             "'신중한 문제 해결자' - 이들은 철저한 준비와 계획을 통해 문제를 해결하며, 안정적이고 신뢰할 수 있는 운영을 중요시합니다. " +
                     "스타트업의 초기 단계에서 정밀한 분석과 실용적인 해결책을 제시함으로써, 팀이 신뢰할 수 있는 기반을 구축할 수 있도록 돕습니다. " +
                     "이들은 특히 재무 관리나 프로젝트 관리와 같은 세부적인 업무에서 두각을 나타냅니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ISTJ.png",
             "리처드 바클랜드 (Richard Branson) - Virgin Group",
             "Richard Branson은 창의적이고 열린 사고로 다양한 아이디어를 탐색하고 혁신적인 해결책을 찾아갑니다. " +
                     "변화와 도전에 적극적으로 대응하며, 팀의 동기 부여와 협력을 중시합니다."
@@ -203,7 +215,7 @@ public enum MbtiType {
     ESFJ(
             "ESFJ",
             "실용적인 조정자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESFJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESFJ.png",
             "실용적인 조정자는 체계적이고 현실적인 접근을 통해 스타트업의 안정성과 성과를 보장합니다. " +
                     "이들은 문제를 신속하게 분석하고, 실용적인 해결책을 제공하며, 팀원들과의 원활한 소통을 통해 효율적인 팀워크를 구축합니다. " +
                     "또한, 장기적인 계획보다는 현재의 문제를 해결하는 데 강점을 가지고 있습니다.",
@@ -211,13 +223,14 @@ public enum MbtiType {
             "변화나 새로운 아이디어에 대한 적응이 느릴 수 있으며, 유연성이 부족할 수 있습니다.",
             "'창의적인 문제 해결사' - 이들은 새로운 아이디어를 탐색하고, 창의적인 해결책을 제시하는 데 탁월합니다. " +
                     "복잡한 문제를 다양한 관점에서 접근하며, 독립적인 작업을 선호합니다. 이들은 특히 제품 개발이나 연구와 같은 창의적이고 분석적인 분야에서 두각을 나타냅니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INTP.png",
             "팀 쿡 (Tim Cook) - Apple",
             "Tim Cook은 체계적이고 현실적인 접근을 통해 Apple의 안정성과 성과를 보장합니다. 신속하게 문제를 분석하고 실용적인 해결책을 제공합니다."
     ),
     INFP(
             "INFP",
             "창의적 추진자",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INFP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INFP.png",
             "창의적 추진자는 이상적인 목표와 가치에 중점을 두며, 스타트업의 비전을 실현하는 데 강한 열정을 가지고 있습니다. " +
                     "이들은 새로운 아이디어와 가능성을 탐색하며, 고객의 니즈와 시장의 요구를 깊이 이해하려고 노력합니다. " +
                     "또한, 팀원들과의 협력을 통해 창의적인 해결책을 도출합니다.",
@@ -225,6 +238,7 @@ public enum MbtiType {
             "실용적인 세부 계획이 부족할 수 있으며, 목표 달성을 위한 실행에 시간이 걸릴 수 있습니다.",
             "'팀워크를 중시하는 계획자' - 이들은 명확한 역할 분담과 세부 계획을 통해 팀이 목표를 향해 나아가도록 돕습니다. " +
                     "팀원들과의 소통을 중요시하며, 팀의 업무가 계획에 맞춰 원활하게 진행되도록 관리합니다. 이 타입의 창업가는 특히 프로젝트 관리와 팀 운영에 있어 강력한 역량을 발휘합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESTJ.png",
             "에반 윌리엄스 (Evan Williams) - Twitter, Medium",
             "Evan Williams는 이상적인 목표와 가치를 중시하며 창의적인 아이디어를 추구합니다. " +
                     "새로운 가능성을 탐색하고 팀원들과의 협력을 통해 비전을 실현합니다."
@@ -232,7 +246,7 @@ public enum MbtiType {
     INFJ(
             "INFJ",
             "유연한 분석가",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INFJ.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INFJ.png",
             "유연한 분석가는 빠르게 변하는 시장에서 효율적이고 분석적인 접근을 통해 문제를 해결합니다. " +
                     "이들은 체계적인 계획과 실용적인 접근을 통해 창업의 성공을 이끌며, 팀원들과의 협력을 통해 성과를 극대화합니다. " +
                     "또한, 실질적인 데이터를 기반으로 한 문제 해결을 중시합니다.",
@@ -240,13 +254,14 @@ public enum MbtiType {
             "장기적인 비전보다 즉각적인 결과를 중시할 수 있으며, 유연성이 부족할 수 있습니다.",
             "'창의적인 실행가' - 이들은 현장에서 직접 문제를 해결하고, 즉각적인 피드백을 통해 빠르게 적응합니다. " +
                     "또한, 실용적인 해결책을 제시하며, 팀원들과의 협업을 통해 성과를 극대화합니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESTP.png",
             "앤디 그로브 (Andy Grove) - Intel",
             "Andy Grove는 빠르게 변하는 시장에서 효율적이고 분석적인 접근을 통해 문제를 해결했습니다. 체계적인 계획과 실용적인 접근을 통해 Intel의 성공을 이끌었습니다."
     ),
     ESFP(
             "ESFP",
             "협력적인 혁신가",
-            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESFP.jpg",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/ESFP.png",
             "협력적인 혁신가는 창의적인 아이디어와 팀워크를 통해 스타트업을 이끌어갑니다. " +
                     "이들은 다양한 아이디어를 탐색하고, 팀원들과의 협업을 통해 혁신적인 해결책을 찾습니다. " +
                     "또한, 변화와 도전에 적극적으로 대응하며, 팀의 동기 부여와 협력을 통해 목표를 달성합니다.",
@@ -254,6 +269,7 @@ public enum MbtiType {
             "세부적인 계획이 부족할 수 있으며, 일정 관리와 실행력이 떨어질 수 있습니다.",
             "'미래의 설계자' - 팀이 목표를 향해 나아가는 데 필요한 전반적인 방향을 제시합니다. " +
                     "이러한 성향 덕분에 미래의 설계자는 특히 기술 스타트업이나 혁신적인 프로젝트에서 중요한 역할을 맡습니다.",
+            "https://2024fuve.s3.ap-northeast-2.amazonaws.com/INTJ.png",
             "토니 셰이 (Tony Hsieh) - Zappos",
             "Tony Hsieh는 창의적인 아이디어와 팀워크를 통해 Zappos를 이끌었습니다. 다양한 아이디어를 탐색하고 협력을 통해 혁신적인 해결책을 찾습니다."
     );
@@ -265,6 +281,7 @@ public enum MbtiType {
     private String advantages;
     private String disadvantages;
     private String teamwork;
+    private String teamworkUrl;
     private String similarTypeEntrepreneurs;
     private String entrepreneurDescription;
 
@@ -276,6 +293,7 @@ public enum MbtiType {
             String advantages,
             String disadvantages,
             String teamwork,
+            String teamworkUrl,
             String similarTypeEntrepreneurs,
             String entrepreneurDescription) {
         this.result = result;
@@ -285,6 +303,7 @@ public enum MbtiType {
         this.advantages = advantages;
         this.disadvantages = disadvantages;
         this.teamwork = teamwork;
+        this.teamworkUrl = teamworkUrl;
         this.similarTypeEntrepreneurs = similarTypeEntrepreneurs;
         this.entrepreneurDescription = entrepreneurDescription;
     }
