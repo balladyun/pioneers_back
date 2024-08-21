@@ -4,5 +4,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MbtiRepository extends JpaRepository<Mbti, Long> {
 
-    Mbti findByName(String name);
+    Mbti findByTitle(String title);
 }

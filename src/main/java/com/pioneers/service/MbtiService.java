@@ -74,7 +74,7 @@ public class MbtiService {
     }
 
     public MbtiResult findMbtiInfo(String result) {
-        Mbti mbti = mbtiRepository.findByName(result);
+        Mbti mbti = mbtiRepository.findByTitle(result);
         return new MbtiResult(mbti.getName(), mbti.getImageUrl(), mbti.getDescription(),
                 mbti.getAdvantages(), mbti.getDisadvantages(),mbti.getDisadvantages(),
                 mbti.getTeamworkUrl(), mbti.getSimilarTypeEntrepreneurs(),mbti.getEntrepreneurDescription());
