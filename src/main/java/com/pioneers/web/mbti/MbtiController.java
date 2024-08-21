@@ -4,6 +4,8 @@ import com.pioneers.service.MbtiService;
 import com.pioneers.web.mbti.dto.request.MbtiResponse;
 import com.pioneers.web.mbti.dto.response.MbtiResult;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
@@ -14,9 +16,9 @@ public class MbtiController {
     private final MbtiService mbtiService;
 
     @PostMapping(value = "/result")
-    public String evaluateMbti(@RequestBody MbtiResponse mbtiResponse){
+    public ResponseEntity<String> evaluateMbti(@RequestBody MbtiResponse mbtiResponse){
         String result = mbtiService.evaluateMbti(mbtiResponse);
-        return result;
+;        return ResponseEntity.ok(result);
     }
 
     @GetMapping(value = "/result/{result}")
