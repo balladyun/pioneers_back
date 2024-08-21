@@ -1,7 +1,5 @@
 package com.pioneers.service;
 
-import com.pioneers.domain.mbti.Mbti;
-import com.pioneers.domain.mbti.MbtiRepository;
 import com.pioneers.domain.mbti.MbtiType;
 import com.pioneers.web.mbti.dto.request.MbtiResponse;
 import com.pioneers.web.mbti.dto.response.MbtiResult;
@@ -15,8 +13,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 public class MbtiService {
-
-    private final MbtiRepository mbtiRepository;
 
     public String evaluateMbti(MbtiResponse mbtiDto) {
 
@@ -74,10 +70,6 @@ public class MbtiService {
     }
 
     public MbtiResult findMbtiInfo(String result) {
-        Mbti mbti = mbtiRepository.findByTitle(result);
-        return new MbtiResult(mbti.getName(), mbti.getImageUrl(), mbti.getDescription(),
-                mbti.getAdvantages(), mbti.getDisadvantages(),mbti.getDisadvantages(),
-                mbti.getTeamworkUrl(), mbti.getSimilarTypeEntrepreneurs(),mbti.getEntrepreneurDescription());
-//        return MbtiType.findMbtiInfo(result);
+                return MbtiType.findMbtiInfo(result);
     }
 }
